@@ -12,7 +12,7 @@ ali-oss和vue结合的demo项目，使用了OSS JavaScript SDK。（对该SDK的
 
 ### 遇到的几个坑
 这个问题看起来简单，但是却困扰了我好几天，遇到了好多坑。
-1. 一开始是尝试使用 import 'ali-oss'，但是这个npm包依赖 fs 等 node.js 核心包，导致无法运行。
+1. 一开始是尝试使用 import 'aliyun-oss'，但是这个npm包依赖 fs 等 node.js 核心包，导致无法运行。
 
 2. 后来尝试直接使用<script src="http://gosspublic.alicdn.com/aliyun-oss-sdk-4.1.4.min.js"></script>，在代码中直接 new OSS这种方式来运行。但是atom会提示出错“OSS is not defined”。最后试了下 new window.OSS这种方式来初始化客户端，就不会报错了。
 
