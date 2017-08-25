@@ -1,5 +1,5 @@
 # vue-oss
-ali-oss和vue结合的demo项目。
+ali-oss和vue结合的demo项目，使用了OSS JavaScript SDK。（对该SDK的不清楚的同学请参考：https://cnodejs.org/topic/56ab1c0526d02fc6626bb383 )
 
 ### 使用方法：
 1. git clone本项目
